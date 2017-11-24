@@ -6,8 +6,11 @@ $(function(){
 			url:"https://quiet-citadel-87837.herokuapp.com/restaurants",
 			success: function(data){
 				console.log(data);
+				$("#rating").text(data[0].rating);
 			}
 			
 		})
+
+
 
 })
