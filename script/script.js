@@ -1,5 +1,5 @@
 $(function(){
-	$(document).ready(function(){
+
 		$.ajax({
 			dataType:"json",
 			type:"GET",
@@ -9,5 +9,5 @@ $(function(){
 			}
 			
 		})
-	})
+
 })
