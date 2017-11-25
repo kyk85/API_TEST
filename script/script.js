@@ -18,7 +18,7 @@ $(function(){
 
 })
 
-function initMap() {
+/*function initMap() {
         var atria = {lat: 3.127175, lng: 101.6143953};
         var map = new google.maps.Map(document.getElementById('map'), {
           zoom: 4,
@@ -28,4 +28,4 @@ function initMap() {
           position: atria,
           map: map
         });
-      }
+      }*/
